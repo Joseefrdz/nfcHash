@@ -21,7 +21,7 @@ Este proyecto surgió durante mi periodo de prácticas con el objetivo de **supr
 
 Espero que esta herramienta sea útil para optimizar tu trabajo con chips NFC!
 
-![NFC-Hash](https://i.ibb.co/4RJ3z5sv/Your-Space.png)
+![NFC-Hash](https://i.ibb.co/wNjgpJFJ/NFC-Hash.png)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
