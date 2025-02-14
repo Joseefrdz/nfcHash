@@ -1,0 +1,231 @@
+#Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#ContImg {
+    flex: 100%;
+    /* Ocupa el 70% del espacio disponible */
+    /*Para centrar el contenido*/
+    display: flex;
+    justify-content: start;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
+    z-index: 1;
+}
+
+#bracelit {
+    transform: scale(1.70);
+    margin-left: 40vh;
+}
+
+#ContIS {
+    position: absolute;
+    flex: 30%;
+    /* Ocupa el 30% del espacio disponible */
+    width: 35em;
+    /*Para centrar el contenido*/
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
+    align-self: center;
+    margin-right: 10vw;
+    margin-left: 10em;
+    z-index: 3;
+    padding: 1%;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 75vh;
+    width: 90%;
+    background-color: #5a9f99;
+    box-shadow: 2px 2px 50px black;
+    /* border: 3px solid #30F0A2; */
+}
+
+#IS {
+    align-self: center;
+    margin-top: 20%;
+    font-size: 40px;
+    font-weight: 700;
+    z-index: 1;
+    text-align: center;
+}
+
+/* C O N   I C O N O */
+#chip {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    transform: scale(7);
+    margin: 3em;
+    margin-top: 10em;
+    z-index: 0;
+}
+
+#nfc{
+    color: #0F223E;
+    text-shadow: 0px 0px 1.5px black;
+    transition: all 1s ease;
+}
+
+#nfc:hover{
+    color: #34ffae;
+    text-shadow: 0px 0px 1.5px #30F0A2;
+}
+
+/* C O N   I M A G E N */
+/* #chip1 {
+    align-self: center;
+    transform: scale(0.40);
+    width: 50vh;
+    margin-top: -10vh;
+    margin-bottom: -13vh;
+    z-index: 0;
+    filter: contrast(200%) brightness(120%) saturate(75%);
+} */
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+#card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -1em;
+    height: 25em;
+    width: 25em;
+    position: relative;
+    text-align: center;
+}
+
+input::placeholder {
+    color: gray;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#error {
+    position: absolute;
+
+    color: rgb(161, 27, 27);
+    margin-top: 25%;
+    /* text-shadow: 1px 1px 5px black; */
+}
+
+#person {
+    position: absolute;
+    left: 17%;
+    /* Ajusta la posición del icono */
+    /* Ajusta la posición vertical del icono */
+    color: #5a9f99;
+}
+
+#lock {
+    position: absolute;
+    left: 17%;
+    /* Ajusta la posición del icono */
+    color: #5a9f99;
+}
+
+#view {
+    position: absolute;
+    left: 75%;
+    /* Ajusta la posición del icono */
+    color: #5a9f99;
+}
+
+.inputIcon {
+    padding-left: 33px;
+    /* Espacio para el icono */
+}
+
+/*  */
+
+#inputUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+
+#inputPass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+#user {
+    color: black;
+    line-height: 1.5;
+    align-self: center;
+    width: 70%;
+    min-height: 5vh;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid #30f0a2;
+    background-color: antiquewhite;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+#user:focus{
+    box-shadow: 0px 0px 20px #30f0a2
+}
+
+#pass {
+    color: black;
+    align-self: center;
+    width: 70%;
+    min-height: 5vh;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid #30f0a2;
+    background-color: antiquewhite;
+    box-shadow: 1px 1px 5px black;
+}
+
+#pass:focus{
+    box-shadow: 0px 0px 20px #30f0a2
+}
+
+#btn {
+    align-self: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 30%;
+    min-height: 5vh;
+    font-size: 14px;
+    font-weight: 550;
+    border-radius: 15px;
+    background-color: #0F223E;
+    border: 2px solid #30f0a2;
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.25s ease;
+}
+
+#btn:hover {
+    box-shadow: 0px 0px 20px #30f0a2;
+}
